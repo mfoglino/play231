@@ -10,6 +10,8 @@ GET		/lambda						controllers.Application.lambda()
 GET		/mark/name						controllers.MarkApi.slowName()
 GET		/mark/hobbie					controllers.MarkApi.slowHobbie()
 
+GET 	/stocks							controllers.PortfolioPersonal.getStocksValues()
+
 
 
 # Map static resources from the /public folder to the /assets URL path
